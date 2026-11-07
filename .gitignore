@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Editor / IDE folders
+.vscode/
+.idea/
+.qodo/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output and temporary databases
+coverage/
+lab-02/tests/*.db
+lab-02/tests/*.db-journal
+lab-02/tests/*.db-wal
+lab-02/tests/*.db-shm
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Playwright MCP temporary files
+.playwright-mcp/
